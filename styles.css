@@ -63,3 +63,37 @@ h1{
 .green{
     background-color: #6AAA64;
 }
+
+.explanation-game{
+    margin-top: 100px;
+    width: 700px;
+    border: 1px solid black;
+}
+
+.explanation-subtitle{
+    margin-left: 20px;
+    font-size: 1.6rem;
+}
+
+.explanation-game p{
+    margin-left: 20px;
+    font-size: 1.2rem;
+}
+
+.explanation-gris{
+    background-color: #787C7E;
+    padding: 5px;
+    line-height: 2;
+}
+
+.explanation-amarillo{
+    background-color: #C9B45B;
+    padding: 5px;
+    line-height: 2;
+}
+
+.explanation-verde{
+    background-color: #6AAA64;
+    padding: 5px;
+    line-height: 2;
+}

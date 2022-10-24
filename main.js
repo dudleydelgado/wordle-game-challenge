@@ -19,10 +19,9 @@ fetch('https://1000-most-common-words.p.rapidapi.com/words/spanish?words_limit=1
     loadingElement.style.display = 'none';
 })
 .then(data => {
-    console.log(data)
     let word = data[0];
     let wordArray= word.toUpperCase().split('');
-    console.log(wordArray);
+/*     console.log(wordArray); */
     
     let actualRow = document.querySelector('.row')
     
